@@ -1,0 +1,17 @@
+[workspace]
+authors = ["Katie Huang <katie.huang830@gmail.com>"]
+channels = ["conda-forge"]
+name = "arrhythmia-llm"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.13.5,<3.14"
+pixi-pycharm = ">=0.0.8,<0.0.9"
+jupyterlab = ">=4.4.6,<5"
+wfdb = ">=4.3.0,<5"
+wget = ">=1.21.4,<2"
+neurokit2 = ">=0.2.10,<0.3"
+
