@@ -2,7 +2,9 @@
 .pixi/*
 !.pixi/config.toml
 physionet.org/
-.DS_Store/
+.DS_Store
 .idea/
-__pycache__
+__pycache__/
 .ipynb_checkpoints/
+src/.ipynb_checkpoints/
+src/__pycache__/
